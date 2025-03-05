@@ -13,6 +13,8 @@ void ripple_carry_adder(int a, int b) {
     int sum = 0, carry = 0;
 
     printf("\n=== Ripple Carry Adder Visualization ===\n");
+    binary_brackets("A   ", a, 4);
+    binary_brackets("B   ", b, 4);
 
     for (int i = 0; i < 4; i++) {
         int bit_a = (a >> i) & 1;
@@ -26,6 +28,9 @@ void ripple_carry_adder(int a, int b) {
         carry = new_carry;
     }
 
+    printf("-----------------\n");
+    binary_brackets("Sum ", sum, 4);
+    printf("Final Carry: %d\n", carry);
     
 }
 
