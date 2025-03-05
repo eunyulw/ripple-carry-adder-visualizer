@@ -43,6 +43,14 @@ int main() {
     printf("Enter second 4-bit binary number (e.g., 0011): ");
     scanf("%s", char_b);
 
+    // adding limits on only typing 0s and 1s
+    for (int i = 0; i < 4; i++) {
+        if ((char_a[i] != '0' && char_a[i] != '1') |
+            (char_b[i] != '0' && char_b[i] != '1')) {
+            printf("Error: Use only 0s and 1s!\n");
+            return 1;
+        }
+    }
     // converting binary to integer using bit-shifting
     a = 0;
     b = 0;
