@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 
 // for creating the Box visual
 void binary_brackets(char* label, int num, int bits) {
@@ -54,6 +55,8 @@ void ripple_carry_adder(int a, int b) {
             printf("         ||||\n");
             printf("         vvvv\n");
         }
+
+        sleep(1);
         carry = new_carry;
     }
 
