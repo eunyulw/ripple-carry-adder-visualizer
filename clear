@@ -1,0 +1,103 @@
+[33mcommit 54c054c733eed7289a7bf53af74efba52900198a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32manimation[m[33m)[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 21:36:11 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 19:36:11 2025 +0000
+
+    added animation - separate movement of bit boxes
+
+[33mcommit eab109bfd7532a28b8f1b92c9c49e287bbe8df9b[m[33m ([m[1;31morigin/animation[m[33m)[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 19:08:37 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 19:08:37 2025 +0000
+
+    minor issue
+
+[33mcommit e21310d909cc2109affbf705de474c7dd40b4370[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 19:04:39 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 19:04:39 2025 +0000
+
+    created git clear function
+
+[33mcommit b27aac1450fdfed1f2d3b4b10507e78ca9f9b74f[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 18:57:07 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 18:57:07 2025 +0000
+
+    separated functions to files
+
+[33mcommit 0b7bb5a6254721f0625148daba2d2479d2bababb[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 18:38:15 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 18:38:15 2025 +0000
+
+    used sleep(1) to show the ripple effect sequentially
+
+[33mcommit 49507eb51acd961c3443ab4860decb87da0baa41[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mheavy-ASCII[m[33m)[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 18:31:38 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 18:31:38 2025 +0000
+
+    Added heavier ASCII art. Box at final results not showing up right.
+
+[33mcommit 2d6a5d6fc316c0118b8d24dce76a11952b4df1e4[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 18:01:13 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 18:01:13 2025 +0000
+
+    limits to 0s and 1s
+
+[33mcommit 740143c6885f87f0eb5ba5f227792496be98c55e[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 17:47:54 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 17:47:54 2025 +0000
+
+    working first version - has brackets encasing binary bits
+
+[33mcommit c4fcfae29ec1e621a4f32ebdba481687706cedce[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 17:42:46 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 17:42:46 2025 +0000
+
+    added function fop printing binary numbers encased with brackets
+
+[33mcommit a1a33681be0185a4c99a189b953dd6f6bcd74d05[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 17:32:57 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 17:32:57 2025 +0000
+
+    added ripple carry function
+
+[33mcommit 366a9ca0c4961b23dd16dbcb8ac239e61b2d0279[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 17:08:51 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 17:08:51 2025 +0000
+
+    Creating main(). bitshifting and converting int to bin
+
+[33mcommit 7c0e90609b4187ce1e28095cda85cb335523a225[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Wed Mar 5 16:40:07 2025 +0000
+Commit:     Eunyul <jeremia314@gmail.com>
+CommitDate: Wed Mar 5 16:40:07 2025 +0000
+
+    planning process
+
+[33mcommit fd4ba5c0bccf6e1db0de66f91a0eb3d49fd038b1[m
+Author:     Eunyul <jeremia314@gmail.com>
+AuthorDate: Thu Mar 6 01:33:13 2025 +0900
+Commit:     GitHub <noreply@github.com>
+CommitDate: Thu Mar 6 01:33:13 2025 +0900
+
+    Initial commit

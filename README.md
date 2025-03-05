@@ -1,8 +1,10 @@
-# ripple-carry-adder-visualizer
+# Ripple Carry Adder Visualizer
 
-Process:
+A C-based simulation of a 4-bit ripple carry adder with an animated ASCII art visualization. Shows the step-by-step process of binary addition, including carry propagation, visually. 
 
-1. Take two 4-bit binary numbers as input.
-2. Simulate the ripple carry adder, showing the carry propagation.
-3. Use ASCII art to visualize each step (like arrows for carry, boxes for bits?)
-4. Output the final sum and carry-out.
+
+## Trying Out...
+- **Practicing Git and C**: For fun. 
+- **Animated Visualization**: Uses ASCII art and `sleep` to show the ripple effect of carry propagation across bits.
+- **Input Validation**: Ensures only valid 4-bit binary numbers (0s and 1s) are accepted.
+- **Circuit-Like Display**: Represents bits and operations with box-like structures and arrows.
