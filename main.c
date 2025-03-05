@@ -1,5 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+void binary_brackets(char* number, int num, int bits) {
+    printf("%s: ", number);
+    for (int i = bits - 1; i >= 0; i--) {
+        printf("[%d]", (num >> i) & 1);
+    }
+    printf("\n");
+}
+
 void ripple_carry_adder(int a, int b) {
     int sum = 0, carry = 0;
+
+    printf("\n=== Ripple Carry Adder Visualization ===\n");
 
     for (int i = 0; i < 4; i++) {
         int bit_a = (a >> i) & 1;
@@ -11,6 +24,9 @@ void ripple_carry_adder(int a, int b) {
         printf("Step %d:\n", i + 1);
         printf("  Bit %d: %d + %d + %d = %d (Carry: %d)\n", i, bit_a, bit_b, carry, bit_sum, new_carry);
         carry = new_carry;
+    }
+
+    
 }
 
 int main() {
